@@ -87,32 +87,56 @@
 
         <div id="cadastro-rapido">
             <div class="container">
-                <h2>Cadastre-se Rápido</h2>
-                <div>
+
+                <div class="row fundo-cad text-center">
+                    <h2>Cadastre-se Rápido</h2>
                     <form method="POST" action="cadastro.html">
-                        <div class="form-group">
-                            <label for="name">Nome*</label>
-                            <input type="text" name="name" id="nome" class="form-control" placeholder="Digite o seu nome" required>
+                        <div class="col-xs-6">
+                            <div class="form-group">
+                                <label for="name">Nome*</label>
+                                <input type="text" name="name" id="nome" class="form-control" placeholder="Digite o seu nome" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email*</label>
+                                <input type="text" name="Email" id="email" class="form-control" placeholder="email@email.com" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="confirm-email">Confirmação de email*</label>
+                                <input type="text" name="confirm-email" id="confirm-email" class="form-control" placeholder="Confirme seu Email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="estado">Estado*</label>
+                                <select name="estado" id="estado" required>
+                                    <option value="sp">SP</option>
+                                    <option value="rj">RJ</option>
+                                    <option value="mg">MG</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="cidade">Cidade*</label>
+                                <input type="text" name="cidade" id="cidade" class="form-control" placeholder="Cidade" required>
+                            </div>
+                        </div>
+                        <div class="col-xs-6">
+                            <div class="form-group">
+                                <label for="tel">Telefone*</label>
+                                <input type="number" name="tel" id="tel" class="form-control" placeholder="(99) 9 9999-9999" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="senha">Senha*</label>
+                                <input type="password" name="senha" id="senha" class="form-control" placeholder="•••••••" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="confirm-senha">Confirmação de Senha*</label>
+                                <input type="password" name="confirm-senha" id="confirm-senha" class="form-control" placeholder="•••••••" required>
+                            </div>
                         </div>
                         <div class="form-group">
-                            <label for="email">Email*</label>
-                            <input type="text" name="Email" id="email" class="form-control" placeholder="email@email.com" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="confirm-email">Confirmação de email*</label>
-                            <input type="text" name="confirm-email" id="confirm-email" class="form-control" placeholder="Confirme seu Email" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="tel">Telefone*</label>
-                            <input type="number" name="tel" id="tel" class="form-control" placeholder="(99) 9 9999-9999" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="senha">Senha*</label>
-                            <input type="password" name="senha" id="senha" class="form-control" placeholder="********" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="confirm-senha">Confirmação de Senha*</label>
-                            <input type="password" name="confirm-senha" id="confirm-senha" class="form-control" placeholder="********" required>
+                            <label for="adotar">Quero Adotar*</label>
+                            <select name="quero-adotar" id="quero-adotar" required>
+                                <option value="cachorro">Cachorro</option>
+                                <option value="gatos">Gato</option>
+                            </select>
                         </div>
                         <div class="form-group">
                             <button type="submit" class="btn btn-primary">Cadastrar</button>

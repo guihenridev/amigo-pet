@@ -135,3 +135,36 @@ header nav ul li button:focus {
     filter: brightness(0.8);
     z-index: -1;
 }
+
+.fundo-cad {
+    background-color: #0984E3;
+    border-radius: 20px;
+    border: none;
+    width: 50%;
+    height: 380px;
+    padding: 17px;
+    padding-left: 70px;
+    position: relative;
+    top: 375px;
+    left: 300px;
+}
+
+.fundo-cad h2 {
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'montserrat-light';
+    margin-left: 30px;
+}
+
+.fundo-cad label {
+    color: #fff;
+    font-family: 'quicksand';
+}
+
+.fundo-cad button {
+    position: relative;
+    top: 14px;
+    outline: none;
+    background-color: #74B9FF;
+}
