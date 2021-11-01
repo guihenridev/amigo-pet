@@ -141,20 +141,18 @@ header nav ul li button:focus {
     border-radius: 20px;
     border: none;
     width: 50%;
-    height: 380px;
-    padding: 17px;
-    padding-left: 70px;
+    height: inherit;
     position: relative;
     top: 375px;
     left: 300px;
 }
 
 .fundo-cad h2 {
-    text-align: center;
+    text-align: center!important;
     color: white;
     text-transform: uppercase;
     font-family: 'montserrat-light';
-    margin-left: 30px;
+    margin-left: 20%;
 }
 
 .fundo-cad label {
@@ -164,7 +162,48 @@ header nav ul li button:focus {
 
 .fundo-cad button {
     position: relative;
-    top: 14px;
+    margin-top: 5%;
     outline: none;
     background-color: #74B9FF;
+}
+
+#estado {
+    width: 50%;
+    height: 34px;
+}
+
+#estado,
+#quero-adotar {
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.backfant {
+    width: 100%;
+    height: 430px;
+    background-color: #f8f9fd;
+}
+
+h2 {
+    color: #0984E3;
+}
+
+#paragrafo-razoes h2 {
+    font-size: 5rem;
+}
+
+#paragrafo-razoes p {
+    padding: 0px 23%;
+}
+
+.grid-animais img,
+#dicas img {
+    width: auto;
+    height: auto;
+    max-height: 150px;
 }
