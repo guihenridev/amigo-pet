@@ -186,6 +186,10 @@ header nav ul li button:focus {
 .backfant {
     width: 100%;
     height: 430px;
+}
+
+.backfant,
+#grid-dogs {
     background-color: #f8f9fd;
 }
 
@@ -199,11 +203,109 @@ h2 {
 
 #paragrafo-razoes p {
     padding: 0px 23%;
+    color: #555;
 }
 
-.grid-animais img,
+.grid-animais,
+#dicas {
+    padding: 2%;
+}
+
+.grid-animais h2 {
+    margin-left: 4%;
+}
+
+.grid-animais img {
+    width: 150px;
+    height: 150px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.grid-animais img {
+    border: 1px solid #ccc;
+    border-radius: 10%;
+}
+
+.grid-animais h3,
+.grid-animais p {
+    color: #555;
+}
+
+.grid-animais h3 {
+    font-size: 1.5rem;
+}
+
+.grid-animais h3,
+#dicas h3 {
+    margin-top: 8px;
+    margin-bottom: 0;
+}
+
+.grid-animais button {
+    left: 45%;
+    position: relative;
+}
+
+#dicas {
+    background-color: #74B9FF;
+    color: #fff;
+}
+
+#dicas h2 {
+    color: #fff;
+}
+
 #dicas img {
+    max-width: 80%;
     width: auto;
     height: auto;
-    max-height: 150px;
+}
+
+#dicas p {
+    text-align: justify;
+    width: 80%;
+}
+
+footer {
+    height: 150px;
+    background-color: #0984E3;
+    color: #fff;
+}
+
+footer nav ul {
+    padding: 0;
+}
+
+footer nav ul li a {
+    color: #fff;
+}
+
+footer nav ul li a:hover {
+    text-decoration: none;
+    color: #ccc;
+}
+
+.sociais ul li {
+    display: inline-block;
+}
+
+.sociais ul li a {
+    font-size: 3rem;
+    margin-right: 35px;
+}
+
+.sociais {
+    padding-top: 1.5%;
+}
+
+footer nav a {
+    color: #fff;
+}
+
+footer nav a:hover {
+    text-decoration: none;
+    color: #ccc;
 }
