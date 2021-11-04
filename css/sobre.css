@@ -1,0 +1,23 @@
+body {
+    background: #f8f9fd;
+}
+
+.sobre {
+    margin: 3% 15%;
+    background-color: #fff;
+    padding: 1% 5%;
+}
+
+.sobre h2 {
+    text-align: center;
+    font-size: 4rem;
+}
+
+.sobre h3 {
+    color: #0984E3;
+}
+
+.sobre p {
+    text-align: justify;
+    color: #555;
+}
