@@ -1,0 +1,129 @@
+@font-face {
+    font-family: 'montserrat';
+    src: url("../fonts/montserrat/Montserrat-Regular.ttf");
+    font-size: 1em;
+}
+
+@font-face {
+    font-family: 'montserrat-light';
+    src: url("../fonts/montserrat/Montserrat-Light.ttf");
+    font-size: 1em;
+}
+
+@font-face {
+    font-family: 'fredoka';
+    src: url("../fonts/fredokaone/FredokaOne-Regular.ttf");
+    font-size: 1em;
+}
+
+@font-face {
+    font-family: 'quicksand';
+    src: url("../fonts/quicksand/Quicksand_Book.otf");
+    font-size: 1em;
+}
+
+@font-face {
+    font-family: 'helvetica';
+    src: url("../fonts/helvetica/helvetica.otf");
+    font-size: 1em;
+}
+
+#header-azul {
+    height: 40px;
+    background-color: #74B9FF;
+    margin-bottom: 20px;
+    padding-top: 10px;
+}
+
+#header-azul a {
+    font-family: 'quicksand';
+    color: #fff;
+    text-decoration: none;
+}
+
+#header-azul span {
+    margin-bottom: 5px;
+}
+
+#header-azul a:hover {
+    color: #0984E3;
+}
+
+#header-azul i {
+    font-size: 25px;
+}
+
+#header-azul ul li {
+    margin-left: 10px;
+}
+
+#header-azul button {
+    height: 26px;
+    padding: 2px;
+    outline: none;
+}
+
+header ul li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+header nav {
+    position: absolute;
+    top: 50px;
+}
+
+header nav ul li a {
+    font-family: 'fredoka';
+    color: #0984E3;
+    font-size: 16px;
+    outline: none;
+}
+
+header nav ul li a:hover {
+    text-decoration: none;
+}
+
+header nav ul li input {
+    width: 121px;
+    border: #74B9FF solid 2px;
+    border-radius: 8px;
+    position: relative;
+    top: 9px;
+}
+
+header nav ul li input::-webkit-input-placeholder {
+    color: #74B9FF;
+    font-family: 'quicksand';
+}
+
+header nav ul li input:focus {
+    outline: none;
+    filter: drop-shadow(0px 0px 3px #0984E3);
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+header nav ul li button i {
+    font-size: 18px;
+    color: #74B9FF;
+    outline: none;
+    position: absolute;
+    right: 18px;
+}
+
+header nav ul li button {
+    background: none;
+    border: none;
+}
+
+header nav ul li button:focus {
+    outline: none;
+}
+
+#menu {
+    background-color: #fff;
+    height: 130px;
+}

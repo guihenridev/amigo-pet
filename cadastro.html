@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/cadastro.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <link rel="icon" type="imagem/png" href="img/icon.png" />
+    <title>Cadastro</title>
+</head>
+
+<body ng-app="" style="background: #f8f9fd;">
+    <header ng-include="'menu.html'">
+
+    </header>
+    <section class="cad-completo ">
+
+        <h2 class="text-center"> <i class="fas fa-paw"></i> Complete seu Cadastro <i class="fas fa-paw"></i></h2>
+        <form method="POST" action="cadastro.html">
+            <div class="col-xs-6">
+                <div class="form-group">
+                    <label for="name">Nome*</label>
+                    <input type="text" name="name" id="nome" class="form-control" placeholder="Digite o seu nome" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email*</label>
+                    <input type="text" name="Email" id="email" class="form-control" placeholder="email@email.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="confirm-email">Confirmação de email*</label>
+                    <input type="text" name="confirm-email" id="confirm-email" class="form-control" placeholder="Confirme seu Email" required>
+                </div>
+                <div class="form-group">
+                    <label for="endereco">Endereço*</label>
+                    <input type="text" name="endereco" id="endereco" class="form-control" placeholder="Av. Paulista, 500" required>
+                </div>
+                <div class="form-group">
+                    <div class="col-xs-4" style="padding: 0;">
+                        <label for="estado">Estado*</label>
+                        <select name="estado" id="estado" required>
+                                    <option value="sp">SP</option>
+                                    <option value="rj">RJ</option>
+                                    <option value="mg">MG</option>
+                                </select>
+                    </div>
+                    <div class="col-xs-6">
+                        <label for="cidade">Cidade*</label>
+                        <input type="text" name="cidade" id="cidade" class="form-control" placeholder="Cidade" required>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-xs-6">
+                <div class="form-group">
+                    <label for="tel">Telefone*</label>
+                    <input type="number" name="tel" id="tel" class="form-control" placeholder="(99) 9 9999-9999" required>
+                </div>
+                <div class="form-group">
+                    <label for="senha">Senha*</label>
+                    <input type="password" name="senha" id="senha" class="form-control" placeholder="•••••••" required>
+                </div>
+                <div class="form-group">
+                    <label for="confirm-senha">Confirmação de Senha*</label>
+                    <input type="password" name="confirm-senha" id="confirm-senha" class="form-control" placeholder="•••••••" required>
+                </div>
+                <div class="form-group">
+                    <label for="adotar">Quero Adotar*</label><br>
+                    <select name="quero-adotar" id="quero-adotar" required>
+                                    <option value="cachorro">Cachorro</option>
+                                    <option value="gatos">Gato</option>
+                                </select>
+                </div>
+                <div class="form-group">
+                    <div class="col-xs-6" style="padding: 0%;">
+                        <label for="possui-pet" style="margin-right: 2%;">Possui algum pet?*</label>
+                        <select name="possui-pet" id="possui-pet" required>
+                                    <option value="true">Sim</option>
+                                    <option value="false">Não</option>
+                                </select>
+                    </div>
+                    <div class="col-xs-6">
+                        <label for="qual-pet" style="margin-right: 12%;">Qual?*</label>
+                        <select name="qual-pet" id="qual-pet" required>
+                                        <option value="cachorro">Cachorro</option>
+                                        <option value="gatos">Gato</option>
+                                    </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group text-center">
+                <button type="submit" class="btn btn-primary">Cadastrar</button>
+            </div>
+        </form>
+
+
+
+
+    </section>
+
+    <footer ng-include="'footer.html'"></footer>
+</body>
+
+</html>

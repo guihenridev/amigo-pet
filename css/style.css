@@ -28,7 +28,8 @@
     font-size: 1em;
 }
 
-#header-azul {
+
+/* #header-azul {
     height: 40px;
     background-color: #74B9FF;
     margin-bottom: 20px;
@@ -126,7 +127,7 @@ header nav ul li button:focus {
 #menu {
     background-color: #fff;
     height: 130px;
-}
+} */
 
 #banner img {
     width: 100%;
@@ -193,7 +194,7 @@ header nav ul li button:focus {
     background-color: #f8f9fd;
 }
 
-h2 {
+body h2 {
     color: #0984E3;
 }
 
@@ -269,7 +270,16 @@ ul {
     width: 80%;
 }
 
-footer {
+.fa-mars {
+    color: #0984E3;
+}
+
+.fa-venus {
+    color: #fd79a8;
+}
+
+
+/* footer {
     height: 150px;
     background-color: #0984E3;
     color: #fff;
@@ -308,4 +318,4 @@ footer nav a {
 footer nav a:hover {
     text-decoration: none;
     color: #ccc;
-}
+} */

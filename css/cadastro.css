@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'quicksand';
+    src: url("../fonts/quicksand/Quicksand_Book.otf");
+    font-size: 1em;
+}
+
+.cad-completo {
+    margin: 3% 15%;
+    background-color: #fff;
+    padding: 1% 5%;
+}
+
+.cad-completo h2 {
+    color: #0984E3;
+    text-align: center;
+}
+
+.cad-completo label {
+    color: #0984E3;
+    font-family: 'quicksand';
+}
+
+#estado {
+    width: 70%;
+    height: 34px;
+}
+
+#cidade {
+    width: 70%;
+}
+
+#estado,
+#quero-adotar,
+#possui-pet,
+#qual-pet {
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #999999;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#qual-pet,
+#possui-pet,
+#quero-adotar {
+    height: 35px;
+    padding: 5px;
+}
+
+.cad-completo button {
+    margin-top: 6%;
+    font-family: 'quicksand';
+}

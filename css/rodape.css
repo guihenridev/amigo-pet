@@ -1,0 +1,70 @@
+@font-face {
+    font-family: 'montserrat';
+    src: url("../fonts/montserrat/Montserrat-Regular.ttf");
+    font-size: 1em;
+}
+
+@font-face {
+    font-family: 'montserrat-light';
+    src: url("../fonts/montserrat/Montserrat-Light.ttf");
+    font-size: 1em;
+}
+
+@font-face {
+    font-family: 'fredoka';
+    src: url("../fonts/fredokaone/FredokaOne-Regular.ttf");
+    font-size: 1em;
+}
+
+@font-face {
+    font-family: 'quicksand';
+    src: url("../fonts/quicksand/Quicksand_Book.otf");
+    font-size: 1em;
+}
+
+@font-face {
+    font-family: 'helvetica';
+    src: url("../fonts/helvetica/helvetica.otf");
+    font-size: 1em;
+}
+
+footer {
+    height: 150px;
+    background-color: #0984E3;
+    color: #fff;
+}
+
+footer nav ul {
+    padding: 0;
+}
+
+footer nav ul li a {
+    color: #fff;
+}
+
+footer nav ul li a:hover {
+    text-decoration: none;
+    color: #ccc;
+}
+
+.sociais ul li {
+    display: inline-block;
+}
+
+.sociais ul li a {
+    font-size: 3rem;
+    margin-right: 35px;
+}
+
+.sociais {
+    padding-top: 1.5%;
+}
+
+footer nav a {
+    color: #fff;
+}
+
+footer nav a:hover {
+    text-decoration: none;
+    color: #ccc;
+}
