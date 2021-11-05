@@ -13,7 +13,8 @@ body {
     font-size: 4rem;
 }
 
-.sobre h3 {
+.sobre h3,
+.sobre h2 {
     color: #0984E3;
 }
 

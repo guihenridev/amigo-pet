@@ -1,0 +1,27 @@
+.grid-animais {
+    height: inherit;
+}
+
+.grid-animais ul li {
+    margin-bottom: 2%;
+}
+
+.btn-group button {
+    color: #0984E3;
+    background-color: white;
+    border: #0984E3 solid 1px;
+    margin-bottom: 15px;
+}
+
+.btn-group button:hover {
+    color: #fff;
+    background-color: #0984E3;
+    border: #0984E3 solid 1px;
+}
+
+.btn-group button:focus {
+    color: #fff;
+    background-color: #0984E3;
+    outline: none;
+    border: #0984E3 solid 1px;
+}

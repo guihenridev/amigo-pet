@@ -127,3 +127,7 @@ header nav ul li button:focus {
     background-color: #fff;
     height: 130px;
 }
+
+.show {
+    display: flex!important;
+}
