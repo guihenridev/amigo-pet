@@ -158,7 +158,7 @@ header nav ul li button:focus {
 
 .fundo-cad label {
     color: #fff;
-    font-family: 'quicksand';
+    font-family: 'quicksand',sans-serif;
 }
 
 .fundo-cad button {
